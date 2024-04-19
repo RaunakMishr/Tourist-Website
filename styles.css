@@ -1,0 +1,270 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff; 
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  header:focus-visible {
+    outline: 2px solid #333;
+    outline-offset: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-left: 50%;
+    padding: 10;
+    
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  nav li:hover{
+    background-color: darkgray;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px; 
+    top: 10px;
+} 
+
+.signup-button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer; 
+    font-size: 16px; 
+    width: fit-content; 
+    
+    border-radius: 50px; 
+  }
+  
+  .signup-button:hover {
+    background-color: darkgray; 
+  }
+
+  
+
+.image-container {
+    position: relative; 
+    margin-top: -100px; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+}
+  
+.image-container {
+    position: relative; 
+    width:100%; 
+    height : 100%;
+  }
+
+    .image-container img {
+    width: 100%; 
+    height: 100%; 
+    }
+    
+    .text-overlay {
+        position: absolute;
+        top: 30%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        font-size: 4em;
+        width: 80%;
+        color: black;
+        padding: 10px; 
+        overflow: hidden; 
+      }
+      
+
+       /*Snorking Image*/
+       
+.snorking {
+    position: relative; 
+    margin-top: -100px; }
+    
+.snorking {
+    position: relative; 
+    width:100%; 
+    height : 100%;
+}
+
+.snorking img {
+    width: 100%; 
+    height: 50%;
+}
+
+.typewriter-overlay {
+    position: absolute; 
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    width: 89%;
+    color: black; 
+ 
+}
+.typewriter-overlay h1 {
+    overflow: hidden; 
+    
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;  
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+    
+  }
+
+.para1-overlay{
+    
+    position: absolute; 
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 1.5em;
+    width: 85%;
+    color: black; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.book-button{
+    padding: 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    
+}
+
+.book-button:hover{
+    background-color: skyblue;
+}
+
+.unforgettable-h2{
+    top: 50%;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.three-overlay {
+    position: absolute;
+    top: 45%;
+    left: 15px;
+    height: auto;
+    background-color: #f0f0f0; 
+    padding: 15px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 15px; 
+  }
+  
+  .three-ex li p{
+    text-align: center;
+}
+  
+  .three-ex li img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 200px;
+  }
+  
+  .three-ex li h3,
+  .three-ex li p {
+    margin: 0px; 
+  }
+
+
+  .guests{
+    font-size: 1.5em;
+    color: white;
+  }
+.testimonials{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(4, 4, 4, 0.799);
+}
+.testimonials {
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  .testimonials ul { 
+    display: flex; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding: 0; 
+    margin: 10px 10px 10px 10px;
+  }
+
+  
+  .testimonials li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px; 
+  }
+  
+  .testimonials li:nth-child(even) { 
+    flex-direction: row-reverse;
+  }
+  
+  .testimonial-image1, .testimonial-image2 { 
+    width: 250px; 
+    height: 250px; 
+    margin: 0 15px; 
+    border: 5px solid #ddd;
+    box-sizing: border-box;
+}
+  
+ .testimonials li p{
+    font-size: 1.5em;
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+.call-to-action{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.429);
+}
